@@ -1,0 +1,49 @@
+.team {
+  margin-top: 60px;
+}
+
+.theTeamTitle {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.teamPresentation {
+  display: flex;
+  justify-content: space-around
+}
+
+.teamName {
+  text-align: center;
+}
+
+.oneTeamMember {
+  display: flex;
+  cursor: pointer;
+  
+}
+
+.teamMember {
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  ;
+  
+}
+
+.teamPhoto {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+}
+
+
+ul{
+  margin: 30px;
+}
+
+.teamName:hover{
+  color:#0000ff;
+  
+}

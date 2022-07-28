@@ -1,0 +1,20 @@
+.mainSponsors{
+    margin: 60px 0 ;
+    text-align: center;
+}
+
+.sponsorsName{
+    margin-bottom: 60px;
+}
+
+.theSponsors{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    margin: 20px;
+}
+
+.theSponsors > img {
+    width: 200px;
+    height: 125px;
+}
