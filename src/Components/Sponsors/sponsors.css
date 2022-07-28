@@ -14,7 +14,7 @@
     margin: 20px;
 }
 
-.theSponsors > img {
+.theSponsors > a > img {
     width: 200px;
     height: 125px;
 }
