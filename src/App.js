@@ -1,6 +1,6 @@
 import Slider from "react-slick";
 import "./App.css";
-import { NavBar, Slide, Sponsors, TheTeam } from "./Components";
+import { Eventos, NavBar, Slide, Sponsors, TheTeam } from "./Components";
 
 function App() {
   return (
@@ -8,6 +8,7 @@ function App() {
       <NavBar />
       <Slide />
       <TheTeam />
+      <Eventos/>
       <Sponsors />
     </div>
   );
