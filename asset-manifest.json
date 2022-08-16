@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/GuardiaoDoOceano/static/css/main.016c7945.css",
-    "main.js": "/GuardiaoDoOceano/static/js/main.929ea9c0.js",
+    "main.js": "/GuardiaoDoOceano/static/js/main.d3a5bf6e.js",
     "static/js/787.18069ebc.chunk.js": "/GuardiaoDoOceano/static/js/787.18069ebc.chunk.js",
     "static/media/imageSlide1.jpg": "/GuardiaoDoOceano/static/media/imageSlide1.4831b893cb980e0f28d7.jpg",
     "static/media/OceanConference1.jpg": "/GuardiaoDoOceano/static/media/OceanConference1.c34caa4b318f496245f1.jpg",
@@ -21,11 +21,11 @@
     "static/media/slick.woff": "/GuardiaoDoOceano/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/GuardiaoDoOceano/index.html",
     "main.016c7945.css.map": "/GuardiaoDoOceano/static/css/main.016c7945.css.map",
-    "main.929ea9c0.js.map": "/GuardiaoDoOceano/static/js/main.929ea9c0.js.map",
+    "main.d3a5bf6e.js.map": "/GuardiaoDoOceano/static/js/main.d3a5bf6e.js.map",
     "787.18069ebc.chunk.js.map": "/GuardiaoDoOceano/static/js/787.18069ebc.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.016c7945.css",
-    "static/js/main.929ea9c0.js"
+    "static/js/main.d3a5bf6e.js"
   ]
 }
