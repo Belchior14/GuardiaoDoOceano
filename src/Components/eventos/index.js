@@ -7,16 +7,17 @@ import Event3 from "./eventosImages/OceanConference1.jpg";
 
 export function Eventos() {
   const [events, setEvents] = useState(eventos);
+  const [newEvents, setNewEvents] = useState(events.slice(0, 2));
 
   return (
-    <div className="eventsSection">
+    <div id="event" className="eventsSection">
       <div>
         <h1 className="eventTitle">Eventos</h1>
       </div>
       <div className="allEvents">
-        {events.map((event) => {
+        {newEvents.map((event) => {
           return (
-            <div >
+            <div>
               <div className="eventBasicInfo" key={event.id}>
                 {event.Name === "Primeiro" && (
                   <img

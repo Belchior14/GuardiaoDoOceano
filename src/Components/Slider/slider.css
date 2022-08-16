@@ -1,3 +1,7 @@
 .slick-arrow.slick-prev, .slick-arrow.slick-next{
     background: blue;
 }
+
+.slider{
+    margin-top: 80px;
+}

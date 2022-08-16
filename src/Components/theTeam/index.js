@@ -51,7 +51,7 @@ export function TheTeam() {
   }
 
   return (
-    <section className="team">
+    <section id="theTeam" className="team">
       <div className="theTeamTitle">
         <h1>A equipa</h1>
       </div>

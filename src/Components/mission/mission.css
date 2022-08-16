@@ -1,0 +1,26 @@
+.mainDivMission{
+    border-top: 11px dashed #1C79A4;
+    border-bottom: 11px dashed #1C79A4;  ;
+    width: 70%;
+    margin: auto;
+    margin-top: 150px;
+    text-align: center;
+   
+}
+
+.classicThree{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+ 
+}
+
+.classicThreeTitle{
+    margin-bottom: 20px;
+}
+
+.classicThreeText , p {
+    text-align: justify;
+    margin-bottom: 20px;
+}

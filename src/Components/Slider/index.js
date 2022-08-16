@@ -20,8 +20,7 @@ export function Slide() {
       };
 
   return (
-    <div>
-      <div>This is the slider</div>
+    <div id="home" className="slider">
       <div style={{ margin: "30px" }}>
         <Slider {...settings}>
           <div>

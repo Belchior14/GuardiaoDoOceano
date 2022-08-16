@@ -7,7 +7,7 @@ import cmTorres from "./sponsorsImage/cmTorresVedras.png";
 
 export function Sponsors() {
   return (
-    <div className="mainSponsors">
+    <div id="sponsors" className="mainSponsors">
       <div className="sponsorsName">
         <h2>Apoios:</h2>
       </div>
