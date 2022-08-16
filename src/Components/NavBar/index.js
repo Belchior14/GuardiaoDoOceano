@@ -9,6 +9,7 @@ export function NavBar () {
             <div><a href="#theTeam">Equipa</a></div>
             <div><a href="#event">Eventos</a></div>
             <div><a href="#sponsors">Apoios</a></div>
+            <div><a href="#sponsors">Teste</a></div>
         </div>
         </div>
 
