@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 import eventos from "./eventos.json";
 import "./events.css";
 import OceanConferenceMain from "./eventosImages/OceanConferenceMain.jpg";
@@ -6,13 +7,18 @@ import Event2 from "./eventosImages/OceanConference2.jpg";
 import Event3 from "./eventosImages/OceanConference1.jpg";
 
 export function Eventos() {
+
   const [events, setEvents] = useState(eventos);
-  const [newEvents, setNewEvents] = useState(events.slice(0, 2));
+  const [newEvents, setNewEvents] = useState(events.slice(0, 3));
 
   return (
-    <div id="event" className="eventsSection">
+    
+        <div id="event" className="eventsSection">
       <div>
+        <Link to="/GuardiaoDoOceano/eventos">
         <h1 className="eventTitle">Eventos</h1>
+        </Link>
+        
       </div>
       <div className="allEvents">
         {newEvents.map((event) => {
@@ -40,5 +46,7 @@ export function Eventos() {
         })}
       </div>
     </div>
+
+
   );
 }

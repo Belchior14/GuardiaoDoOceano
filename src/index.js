@@ -1,13 +1,22 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React from "react";
+import ReactDOM from "react-dom/client";
+import "./index.css";
+import reportWebVitals from "./reportWebVitals";
+import { Home, NavBar } from "./Components";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { UmTeste } from "./maisTest";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <App />
+    <BrowserRouter>
+      <NavBar />
+      <Routes>
+        <Route path="/GuardiaoDoOceano" element={<Home />} />
+        <Route path="/GuardiaoDoOceano/eventos" element={<UmTeste/>} />
+      </Routes>
+    </BrowserRouter>
   </React.StrictMode>
 );
 
