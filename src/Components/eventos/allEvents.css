@@ -1,0 +1,23 @@
+.allEventsTitle{
+    padding-top: 200px;
+}
+
+.allEvents{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.eventBasicInfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.eventMainImage{
+    width: 300px;
+    border-radius: 50px;
+}

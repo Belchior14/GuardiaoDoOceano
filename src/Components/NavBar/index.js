@@ -12,10 +12,6 @@ export function NavBar() {
         <div>Equipa</div>
         <div>Eventos</div>
         <div>Apoios</div>
-        <div>Teste</div>
-        <Link to="/eventos">
-          <h2>Hello</h2>
-        </Link>
       </div>
     </div>
   );

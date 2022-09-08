@@ -4,7 +4,8 @@ import "./index.css";
 import reportWebVitals from "./reportWebVitals";
 import { Home, NavBar } from "./Components";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import { UmTeste } from "./maisTest";
+import { ShowAllEvents } from "./Components/eventos/allEvents";
+
 
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
@@ -14,7 +15,7 @@ root.render(
       <NavBar />
       <Routes>
         <Route path="/GuardiaoDoOceano" element={<Home />} />
-        <Route path="/GuardiaoDoOceano/eventos" element={<UmTeste/>} />
+        <Route path="/GuardiaoDoOceano/eventos" element={<ShowAllEvents/>} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>
