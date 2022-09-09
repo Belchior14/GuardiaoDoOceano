@@ -2,6 +2,7 @@ import eventos from "./eventos.json";
 import "./allEvents.css";
 import { useState } from "react";
 import testImage from "./eventosImages/OceanConferenceMain.jpg";
+import { Link } from "react-router-dom";
 
 export function ShowAllEvents() {
   const [allEvents, setAllEvents] = useState(eventos);
@@ -14,13 +15,15 @@ export function ShowAllEvents() {
       <div className="allEvents">
         {allEvents.map((event) => {
           return (
-            <div>
-              <div className="eventBasicInfo" key={event.id}>
-                <img className="eventMainImage" src={testImage} alt="test" />
-                <h3>{event.Name}</h3>
-                <h4>{event.Date}</h4>
+            <Link to={`/GuardiaoDoOceano/eventos/${event.id}`}>
+              <div>
+                <div className="eventBasicInfo" key={event.id}>
+                  <img className="eventMainImage" src={testImage} alt="test" />
+                  <h3>{event.Name}</h3>
+                  <h4>{event.Date}</h4>
+                </div>
               </div>
-            </div>
+            </Link>
           );
         })}
       </div>

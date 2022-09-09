@@ -5,6 +5,7 @@ import reportWebVitals from "./reportWebVitals";
 import { Home, NavBar } from "./Components";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { ShowAllEvents } from "./Components/eventos/allEvents";
+import { SingleEvent } from "./Components/eventos/singleEvent"
 
 
 
@@ -16,6 +17,7 @@ root.render(
       <Routes>
         <Route path="/GuardiaoDoOceano" element={<Home />} />
         <Route path="/GuardiaoDoOceano/eventos" element={<ShowAllEvents/>} />
+        <Route path="/GuardiaoDoOceano/eventos/:id" element={<SingleEvent/>} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>
